@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapLens</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/694165bbe5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+            <img src="logo.jpg" class="logo" alt=""><span>SnapLens</span>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><button class="contact"><a href="#contact" >Contact</a></button></li>
+              
+            </ul>
+            
+        </nav>
+    </div>
+    <h1><img src="logo.jpg" width="60px" alt=""  /> SnapLens</h1>
+    <form  id="search-form">
+      <input type="text" id="search-box" placeholder="Search anything here..."/>
+      <button class="btn" id="search-btn"><span>Search</span></button>
+    </form>
+  </header>
+    <div id="search-result" ></div>
+    <button id="show-more-btn" >See More...</button>
+
+    
+    <div class="contact-me">
+      <p><i class="fas fa-paper-plane"> </i>nwoforprecious06@gmail.com |
+        <span ><i class="fas fa-phone-square-alt" > </i>+234-081-784-1326 |</span>
+        <span ><i class="fa-solid fa-location-dot"></i>No 27 Ahmadu Bello Way Jos, Plateau, Nigeria</span></p>
+      </div>
+    <div class="copyright">
+      <p>Copyright <b>&copy; Oma</b>. Made with <i class="fas fa-heart"></i> by Nwofor Precious</p>
+      <p>Images from <a href="https://unsplash.com/">unsplash.com</p></a>
+    </div>
+
+
+    <div class="contact-right active" id="contact">
+      <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit"class="btn"><span>Submit</span></button>
+          <div class="close-icon">
+            <i class="fas fa-times fa-2x"></i>
+          </div>
+      </form>
+      <span id="msg"></span>
+    </div>
+
+<script src="script.js"></script>
+  </body>
+</html>
